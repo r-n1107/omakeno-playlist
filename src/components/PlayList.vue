@@ -21,8 +21,10 @@
             v-for="(next, i) in coffee"
             :key="i"
             :href="next.href"
-            class="subheading mx-3"
+            class="subheading mx-3 mb-4"
             target="_blank"
+            color="accent"
+            block
           >
             {{ next.text }}
           </v-btn>
